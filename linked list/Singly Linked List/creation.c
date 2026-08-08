@@ -32,6 +32,7 @@ int main(){
     return 0;
 }
  */
+// Upper one i.e. commented code is also correct. There values are directly initialised whereas in following code data values are taken as input.
 #include<stdio.h>
 #include<stdlib.h>
 struct Node
