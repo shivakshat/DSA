@@ -46,7 +46,7 @@ void backwardAccess(){
 int main(){
     system("cls");
     creation();
-    // forwardAccess();
-    backwardAccess();
+    forwardAccess();
+    // backwardAccess();
     return 0;
 }
