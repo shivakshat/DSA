@@ -24,6 +24,10 @@ void pop(){
     }
 }
 void peek(){
+    if(top == -1){
+        printf("Stack underflow");
+        return;
+    }
     printf("Peek element : %d\n",arr[top]);
 }
 void display(){
