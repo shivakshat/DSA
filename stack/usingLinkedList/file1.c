@@ -12,7 +12,6 @@ void push(int val){
         temp = top=newnode;//1000
         newnode->next = NULL;
         newnode->data = val;//1
-      
         size++;//1
     }
     else{
